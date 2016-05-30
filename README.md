@@ -9,4 +9,4 @@ Create the working Go directory in ~/go, export the PATH to the go binaries and 
 ```mkdir ~/go && echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile && echo "export GOPATH=$HOME/go >> ~/.profile && source ~/.profile```  
 
 Create the directory where we will clone the learngo repo:  
-```mkdir -p ~/go/src/github.com/miwik && cd ~/go/src/github.com/miwik && git clone https://github.com/Miwik/learngo.git```
+```mkdir -p ~/go/src/github.com/miwik && cd ~/go/src/github.com/miwik && git clone https://github.com/miwik/learngo.git```
