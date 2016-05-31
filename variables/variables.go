@@ -4,7 +4,7 @@ import "fmt"
 
 func print(args ...interface{}) {
 	for i, a := range args {
-		fmt.Printf("#%d (%T) %v\n", i, a, a)
+		fmt.Printf("#%02d (%T) %v\n", i, a, a)
 	}
 }
 
